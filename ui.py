@@ -38,10 +38,10 @@ class UI:
     @staticmethod
     def menu():
         print("\n=== Sistema de Comércio Eletrônico ===")
-        print("Clientes:  1 - Inserir | 2 - Listar | 3 - Atualizar | 4 - Excluir")
-        print("Categorias: 5 - Inserir | 6 - Listar | 7 - Atualizar | 8 - Excluir")
-        print("Produtos:   9 - Inserir | 10 - Listar | 11 - Atualizar | 12 - Excluir")
-        print("13 - Reajustar preços dos produtos | 14 - Finalizar")
+        print("Clientes:  1 - Inserir | 2 - Listar | 3 - Atualizar | 4 - Excluir") #clientes
+        print("Categorias: 5 - Inserir | 6 - Listar | 7 - Atualizar | 8 - Excluir") #categorias
+        print("Produtos:   9 - Inserir | 10 - Listar | 11 - Atualizar | 12 - Excluir") #produtos
+        print("13 - Reajustar preços | 14 - Finalizar")
         return int(input("Informe a opção: "))
 
     @staticmethod
