@@ -1,9 +1,7 @@
 import json
 from pathlib import Path
 
-
 class JSONDAO:
-    """Persistência JSON compartilhada pelos DAOs do sistema."""
 
     def __init__(self, arquivo, classe):
         self._arquivo = Path(__file__).resolve().parent.parent / arquivo
